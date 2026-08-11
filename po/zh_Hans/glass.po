@@ -15,7 +15,7 @@ msgstr "深色模式下活动元素、链接和按钮使用的强调色。"
 #: htdocs/luci-static/resources/view/system/glass.js:56
 msgid ""
 "Accent color used for active elements, links, and buttons in light mode."
-msgstr ""
+msgstr "浅色模式下活动元素、链接和按鈕使用的强调色。"
 
 #: htdocs/luci-static/resources/view/system/glass.js:128
 msgid "Active"
@@ -63,12 +63,12 @@ msgstr ""
 msgid ""
 "Configure the appearance of the Glass theme. Changes take effect after "
 "saving and refreshing the page."
-msgstr ""
+msgstr "配置 Glass 主题外观，保存并刷新页面后生效。"
 
 #: htdocs/luci-static/resources/view/system/glass.js:32
 msgid ""
 "Controls the overall appearance. \"Normal\" follows the system preference."
-msgstr ""
+msgstr "控制整体外观。“正常”跟随系统偏好设置。"
 
 #: htdocs/luci-static/resources/view/system/glass.js:123
 msgid "Current background"
@@ -142,7 +142,7 @@ msgstr ""
 msgid ""
 "No background set. Upload an image or video named \"bg\" (e.g. bg.jpg, "
 "bg.png, bg.mp4) to /www/luci-static/glass/background/ via SCP."
-msgstr ""
+msgstr "未设置背景。请通过 SCP 将名为 bg 的图片或视频（bg.jpg、bg.png、bg.mp4）上传至 /www/luci-static/glass/background/。"
 
 #: ucode/template/themes/glass/header.ut:201
 msgid "No password set!"
@@ -173,13 +173,13 @@ msgstr ""
 msgid ""
 "Scales all text in the theme. Larger values improve readability on high-DPI "
 "displays."
-msgstr ""
+msgstr "缩放主题中的所有文字，较大値可改善高 DPI 屏幕的可读性。"
 
 #: htdocs/luci-static/resources/view/system/glass.js:39
 msgid ""
 "Show live system stats (CPU, RAM, network, uptime) in the header. Disable to "
 "reduce resource usage on low-end devices."
-msgstr ""
+msgstr "在页眉显示实时系统状态（CPU、内存、网络、运行时间）。禁用可降低低端设备资源占用。"
 
 #: ucode/template/themes/glass/sysauth.ut:106
 msgid "Sign in to continue"
@@ -197,7 +197,7 @@ msgstr ""
 msgid ""
 "There is no password set on this router. Please configure a root password to "
 "protect the web interface."
-msgstr ""
+msgstr "此路由器未设置密码。请配置 root 密码以保护 Web 界面。"
 
 #: ucode/template/themes/glass/sysauth.ut:117
 msgid "Username"
@@ -206,4 +206,4 @@ msgstr ""
 #: ucode/template/themes/glass/header.ut:212
 msgid ""
 "You must enable JavaScript in your browser or LuCI will not work properly."
-msgstr ""
+msgstr "您必须在浏览器中启用 JavaScript，否则 LuCI 将无法正常工作。"
