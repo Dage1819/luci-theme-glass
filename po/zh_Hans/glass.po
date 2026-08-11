@@ -6,11 +6,11 @@ msgstr ""
 
 #: htdocs/luci-static/resources/view/system/glass.js:52
 msgid "Accent Colors"
-msgstr ""
+msgstr "强调色"
 
 #: htdocs/luci-static/resources/view/system/glass.js:72
 msgid "Accent color used for active elements, links, and buttons in dark mode."
-msgstr ""
+msgstr "深色模式下活动元素、链接和按钮使用的强调色。"
 
 #: htdocs/luci-static/resources/view/system/glass.js:56
 msgid ""
@@ -19,36 +19,36 @@ msgstr ""
 
 #: htdocs/luci-static/resources/view/system/glass.js:128
 msgid "Active"
-msgstr ""
+msgstr "活动"
 
 #: htdocs/luci-static/resources/view/system/glass.js:33
 msgid "Auto (follow system)"
-msgstr ""
+msgstr "自动（跟随系统）"
 
 #: htdocs/luci-static/resources/view/system/glass.js:108
 msgid "Backdrop blur radius for glass panels in dark mode."
-msgstr ""
+msgstr "深色模式下玻璃面板的背景模糊半径。"
 
 #: htdocs/luci-static/resources/view/system/glass.js:92
 msgid ""
 "Backdrop blur radius for glass panels. Higher values create a more frosted "
 "appearance."
-msgstr ""
+msgstr "玻璃面板的背景模糊半径，值越大磨砂效果越强。"
 
 #: htdocs/luci-static/resources/view/system/glass.js:120
 msgid "Background"
-msgstr ""
+msgstr "背景"
 
 #: htdocs/luci-static/resources/view/system/glass.js:98
 msgid ""
 "Background opacity of glass panels (0 = fully transparent, 1 = fully opaque)."
-msgstr ""
+msgstr "玻璃面板的背景不透明度（0=完全透明，1=完全不透明）。"
 
 #: htdocs/luci-static/resources/view/system/glass.js:114
 msgid ""
 "Background opacity of glass panels in dark mode (0 = fully transparent, 1 = "
 "fully opaque)."
-msgstr ""
+msgstr "深色模式下玻璃面板的背景不透明度（0=完全透明，1=完全不透明）。"
 
 #: htdocs/luci-static/resources/view/system/glass.js:43
 msgid "Base font size"
@@ -76,7 +76,7 @@ msgstr ""
 
 #: htdocs/luci-static/resources/view/system/glass.js:35
 msgid "Dark"
-msgstr ""
+msgstr "深色"
 
 #: htdocs/luci-static/resources/view/system/glass.js:48
 msgid "Extra Large (18px)"
@@ -128,7 +128,7 @@ msgstr ""
 
 #: htdocs/luci-static/resources/view/system/glass.js:34
 msgid "Light"
-msgstr ""
+msgstr "浅色"
 
 #: ucode/template/themes/glass/sysauth.ut:129
 msgid "Log in"
