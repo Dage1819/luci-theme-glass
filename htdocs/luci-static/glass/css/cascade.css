@@ -822,8 +822,8 @@ html[data-theme="dark"] .theme-icon-dark {
 /* ---- Main content area ---- */
 #content-wrap {
   margin-left: calc(var(--sidebar-width) + var(--sidebar-gap) * 2);
-  margin-top: calc(44px + var(--sidebar-gap) * 2);
-  min-height: calc(100vh - 44px - var(--sidebar-gap) * 2);
+  margin-top: calc(24px + var(--sidebar-gap) * 2);
+  min-height: calc(100vh - 24px - var(--sidebar-gap) * 2);
   padding: var(--content-padding);
   transition: margin-left var(--transition-slow);
   animation: page-enter 0.3s cubic-bezier(0.16, 1, 0.3, 1) both;
@@ -855,7 +855,7 @@ body.page-leaving #content-wrap {
 }
 /* Push content down when sub-nav is visible */
 body.has-sub-nav #content-wrap {
-  margin-top: calc(44px + 36px + var(--sidebar-gap) * 2 + 4px);
+  margin-top: calc(24px + 36px + var(--sidebar-gap) * 2 + 4px);
 }
 #content {
   max-width: var(--content-max-width);
@@ -2588,4 +2588,17 @@ progress::-moz-progress-bar {
 [data-page="admin-system-opkg"] .controls > div:nth-child(4) > .control-group,
 [data-page="admin-system-package-manager"] .controls > div:nth-child(4) > .control-group {
   gap: var(--space-sm) !important;
+}
+
+
+/* Fix: box-sizing conflict causing input display issues */
+/* Only apply to LuCI config form inputs, not login form */
+.cbi-input-text, .cbi-input-password, .cbi-input-number,
+.cbi-value input, .cbi-value textarea, .cbi-value select,
+.cbi-value-field input, .cbi-value-field textarea, .cbi-value-field select,
+.control-group input, .control-group textarea, .control-group select,
+.controls input[type=text]:not(.login-field input),
+.controls input[type=password]:not(.login-field input),
+.controls input[type=number]:not(.login-field input) {
+    box-sizing: content-box;
 }
